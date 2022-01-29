@@ -48,6 +48,9 @@
       </Text>
       <ChoiceBox fx:id="cMenu" layoutX="115.0" layoutY="475.0" prefHeight="26.0" prefWidth="294.0" />
       <RadioButton fx:id="cob" layoutX="143.0" layoutY="620.0" mnemonicParsing="false" text="Online Banking" />
+      <toggleGroup>
+            <ToggleGroup fx:id="payment" />
+         </toggleGroup></RadioButton>
       <Text layoutX="14.0" layoutY="559.0" strokeType="OUTSIDE" strokeWidth="0.0" text="QUANTITY :" wrappingWidth="99.0">
          <font>
             <Font name="Berlin Sans FB Demi Bold" size="18.0" />
